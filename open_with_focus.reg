@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithFocus]
+@="Open with Focus"
+"Icon"="C:\\Tools\\Focus\\focus.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithFocus\command]
+@="\"C:\\Tools\\Focus\\focus.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithFocus]
+@="Open with Focus"
+"Icon"="C:\\Tools\\Focus\\focus.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithFocus\command]
+@="\"C:\\Tools\\Focus\\focus.exe\" \"%1\""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithFocus]
+@="Open with Focus"
+"Icon"="C:\\Tools\\Focus\\focus.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithFocus\command]
+@="\"C:\\Tools\\Focus\\focus.exe\" \"%V\""
